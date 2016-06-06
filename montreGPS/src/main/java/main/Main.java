@@ -5,13 +5,18 @@
  */
 package main;
 
+import Service.ServiceItineraireFromFileGPX;
+
 /**
  *
  * @author florian
  */
+//CHEMIN C:\Users\florian\Downloads\406328c77fef80554d25.gpx
 public class Main {
    public static void main (String[] args){
-       System.out.println("Hello World");
+       Service.ServiceItineraireFromFileGPX gp=new ServiceItineraireFromFileGPX();
+       gp.generateItineraire();
+               
    }
 
 }
