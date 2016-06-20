@@ -46,7 +46,7 @@ public class ServiceItineraireFromFileGPX implements ServiceItineraire{
             Logger.getLogger(ServiceItineraireFromFileGPX.class.getName()).log(Level.SEVERE, null, ex);
         }
         System.out.println(toString(iti));
-        return null;
+        return iti;
     }
     /**
      * Fonction permettant l'affichage de l'Itinéraire dans la sortie général
