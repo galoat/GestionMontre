@@ -45,7 +45,7 @@ public class ServiceItineraireFromFileGPX implements ServiceItineraire{
         } catch (IOException ex) {
             Logger.getLogger(ServiceItineraireFromFileGPX.class.getName()).log(Level.SEVERE, null, ex);
         }
-        System.out.println(toString(iti));
+      
         return iti;
     }
     /**

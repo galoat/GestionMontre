@@ -14,6 +14,6 @@ import Entity.Point;
 public class ServicePointConsole {
     public String afficherString(Point p){
         return "\n lattitude "+p.getLatitude()+" longitude "+p.getLongitude()+" alltitute "+p.getAlltitude()+" Date "+p.getTemp();
-        
+  
     }
 }

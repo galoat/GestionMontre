@@ -13,7 +13,7 @@ import java.util.Date;
  */
 public class Point {
     private float latitude;
-   private float longitude;
+    private float longitude;
     private Date temp;
     private float alltitude;
 

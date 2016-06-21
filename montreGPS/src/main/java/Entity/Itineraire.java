@@ -15,8 +15,5 @@ public class Itineraire extends LinkedList<Point>{
 
     public Itineraire() {
     }
-   
-  
-   
-    
+ 
 }
